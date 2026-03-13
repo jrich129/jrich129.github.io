@@ -5,6 +5,20 @@ body{
     margin:0;
 }
 
+nav{
+    border-bottom:1px solid #ddd;
+    padding:16px 40px;
+    display:flex;
+    justify-content:flex-end;
+    gap:18px;
+    font-size:16px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#c02ac9;
+}
+
 .container{
     max-width:1000px;
     margin:auto;
@@ -33,16 +47,4 @@ p{
     max-width:320px;
     border-radius:8px;
     box-shadow:0 6px 18px rgba(0,0,0,0.12);
-}
-
-nav{
-    border-bottom:1px solid #ddd;
-    padding:16px 30px;
-    text-align:right;
-    font-size:16px;
-}
-
-nav a{
-    text-decoration:none;
-    color:#c02ac9;
 }
