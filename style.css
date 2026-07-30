@@ -42,9 +42,14 @@ p{
     margin-bottom:20px;
 }
 
+.photo{
+    align-self:start;
+    margin-top:110px;
+}
+
 .photo img{
     width:100%;
-    max-width:270px;
+    max-width:320px;
     border-radius:8px;
     box-shadow:0 6px 18px rgba(0,0,0,0.12);
 }
